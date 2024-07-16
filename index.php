@@ -11,3 +11,5 @@ class Profile{
 }
 $user = new User;
 echo $user->profile()?->employment() ?? 'not provided';
+
+
